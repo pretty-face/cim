@@ -1,0 +1,22 @@
+.login-wrapper,
+.register-wrapper,
+.forget-wrapper {
+    .login-form-wrapper,
+    .register-form-wrapper,
+    .forget-form-wrapper {
+        .el-form {
+            .el-form-item {
+                .el-form-item__content {
+                    margin-left: 40px!important;
+                    .el-input {
+                        width: 370px
+                    }
+                }
+            }
+        }
+    }
+}
+
+.el-table thead tr th {
+    background-color: #f8f8f8;
+}
